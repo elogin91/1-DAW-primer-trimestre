@@ -1,0 +1,23 @@
+package empleado.javabean;
+
+public class Empleado {
+	int idEmpleado, idDepartamento;
+	String nombre, apellido, email;
+	Double salario, complemento;
+	char sexo;
+
+	public Empleado() {
+		// TODO Auto-generated constructor stub
+	}
+	public Empleado(int idEmpleado, int idDepartamento, String nombre, String apellido, String email, Double salario, Double complemento) {
+		this.idEmpleado = idEmpleado;
+		this.idDepartamento = idDepartamento;
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.email = email;
+		this.salario = salario;
+		this.complemento = complemento;
+		this.sexo = sexo;
+	}
+
+}

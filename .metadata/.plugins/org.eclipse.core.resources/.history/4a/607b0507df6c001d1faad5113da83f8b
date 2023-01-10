@@ -1,0 +1,9 @@
+package empleado.test;
+
+public class TestEmpleado {
+
+	public TestEmpleado() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

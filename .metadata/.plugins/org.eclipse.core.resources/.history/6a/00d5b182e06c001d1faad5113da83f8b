@@ -1,0 +1,16 @@
+package empleado.test;
+
+import empleado.javabean.Empleado;
+
+public class EmpleadoTest {
+
+	public EmpleadoTest() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static void main(String[] args) {
+	
+		Empleado empleado = new Empleado(1, 342, "Pepito", "Gil Fernandez","prueba1", 1500.58, 389.32, 'H');
+		System.out.println(empleado.toString());
+	}
+}

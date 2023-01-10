@@ -1,0 +1,21 @@
+package empleado.test;
+
+import empleado.javabean.Empleado;
+
+public class EmpleadoTest {
+
+	public static void main(String[] args) {
+	
+		Empleado empleado = new Empleado(1, 342, "Pepito", "Gil Fernandez","prueba1", 1500.58, 389.32, 'H');
+		
+		System.out.println(empleado.toString());
+		System.out.println(empleado.salarioBruto());
+		System.out.println(empleado.salarioMensual(2));
+		System.out.println(empleado.literalSexo());
+		System.out.println(empleado.obtenerEmail());
+		System.out.println(empleado.nombreCompleto());
+		
+		Empleado empleadoVacio = new Empleado();
+		
+	}
+}
